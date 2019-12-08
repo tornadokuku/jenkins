@@ -9,6 +9,7 @@ public class HiController {
 	
 	@RequestMapping(value = "/hello")
     public String hi() {
-        return "hello yaohj ";  // 返回端口号，方便负载均衡功能测试
+        return "hello yaohj ";  // 返回端口号，方便负载均衡功能测试，haoceshi
     }
+    // 追加注释
 }
